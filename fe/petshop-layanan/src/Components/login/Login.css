@@ -1,0 +1,105 @@
+.body-login {
+    background: url('../../assets/back.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Menetapkan tinggi agar background menutupi seluruh halaman */
+    overflow: hidden; /* Menghilangkan overflow jika diperlukan */
+}
+
+.cardt {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    margin-left: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgba(255, 99, 71, 0.2);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.card-body {
+    padding: 20px 10px; /* Adjust padding for better spacing */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* White text for labels */
+}
+
+.input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.mandatory {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button:hover {
+    background-color: #003f7f;
+}
+
+.space {
+    height: 10px;
+}
+
+.account {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.account:hover {
+    color: #e0e0e0;
+}
+.small-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: auto;
+    margin-top: 10px; /* Sesuaikan margin atas sesuai kebutuhan */
+}

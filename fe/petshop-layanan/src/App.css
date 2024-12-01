@@ -1,0 +1,45 @@
+.navbar{
+  height: 95px;
+  width: 103%;
+  margin-top: -20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./assets/back.png');
+  background-attachment:fixed;
+  background-position: top;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.service-card {
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: rgb(243, 218, 232);
+  text-align: center;
+  width: 100%;
+  padding-top: 2px;
+  height: 100%;
+}
+  
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: rgba(226, 187, 206, 0.642);
+  border-color: rgba(249, 7, 124, 0.886);
+}
+
+.icon {
+  width: 200px;
+  margin: auto;
+  margin-top: -30px;
+}
+
